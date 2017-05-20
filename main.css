@@ -1,0 +1,84 @@
+body {
+  padding: 80px;
+  margin: 0;
+}
+main {
+  font-family: arial;
+}
+nav {
+  height: 60px;
+  background-color: #cccccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+nav ul {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: right;
+}
+nav li {
+  display: inline;
+  margin: 15px;
+  font-size: 20px;
+  color: purple;
+}
+ .inline-greg { 
+  position: absolute;
+  font-size: 20px;
+  margin: 15px 20px 0px;  
+}  
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+.form-box {
+ margin-left: auto;
+  margin-right: auto;
+  height: 800px;
+}
+.search-box, .results-box {
+  padding-left: 40px;
+  height: 200px;
+}
+dl, .input-box, .input-image {
+  border: 1px solid grey;
+  border-radius: 6px 6px;
+  box-shadow: 2px 2px #666666; 
+}
+label, .input-box {
+  font-size: 20px;
+}
+.input-box  {
+  width: 400px;
+  padding: 5px;
+}
+.input-image {
+  height: 33px;
+  width: 33px;
+  vertical-align: middle;
+}
+dl {
+  list-style-type: none;
+  text-align: center;
+  padding: 5px;
+  width: 300px;  
+}
+dt {
+  display: inline;
+  padding: 0px 10px;
+}
+.border-100 {
+  border-left: 1px solid grey;
+}
+.grey-txt {
+  color: #666666;
+}
+.span-class {
+  color: blue;
+  padding: 20px;
+}
+
